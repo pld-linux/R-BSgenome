@@ -42,21 +42,13 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %dir %{_libdir}/R/library/%{packname}
+%{_libdir}/R/library/%{packname}/BSgenomeDataPkg-template
 %{_libdir}/R/library/%{packname}/INDEX
 %{_libdir}/R/library/%{packname}/Meta/
 %{_libdir}/R/library/%{packname}/R/
 %{_libdir}/R/library/%{packname}/help/
-%{_libdir}/R/library/%{packname}/libs/
 %{_libdir}/R/library/%{packname}/NAMESPACE
-%{_libdir}/R/library/%{packname}/UnitTests/
-%{_libdir}/R/library/%{packname}/data
-%{_libdir}/R/library/%{packname}/scripts
-%{_libdir}/R/library/%{packname}/ExpressionSet
-%{_libdir}/R/library/%{packname}/CITATION
-%{_libdir}/R/library/%{packname}/Code
 %{_libdir}/R/library/%{packname}/extdata
-%{_libdir}/R/library/%{packname}/testClass.R
-%{_libdir}/R/library/%{packname}/NEWS
 %doc %{_libdir}/R/library/%{packname}/doc
 %doc %{_libdir}/R/library/%{packname}/DESCRIPTION
 %doc %{_libdir}/R/library/%{packname}/html
