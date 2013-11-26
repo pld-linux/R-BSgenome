@@ -2,13 +2,13 @@
 
 Summary:	Infrastructure for Biostrings-based genome data packages
 Name:		R-%{packname}
-Version:	1.26.1
+Version:	1.30.0
 Release:	1
 License:	Artistic 2.0
 Group:		Applications/Science
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	c46bfe6388f351c7ee7a034e63fd784d
-URL:		http://bioconductor.org/packages/release/bioc/html/Biobase.html
+# Source0-md5:	6ae0eaf797f1b64fc72f0be329fd3a0c
+URL:		http://bioconductor.org/packages/release/bioc/html/BSgenome.html
 BuildRequires:	R
 BuildRequires:	R-BiocGenerics >= 0.3.2
 BuildRequires:	R-IRanges >= 1.13.6
